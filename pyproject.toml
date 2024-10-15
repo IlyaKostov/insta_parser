@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "insta-parse"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "insta_parse"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+instaloader = "^4.13.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
